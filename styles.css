@@ -51,6 +51,7 @@ body{
 .slide_content > .logo_img{
     width: 15rem;
     margin-left: 3rem;
+    margin-top: -2rem;
 }
 
 .slide .slide_img{
@@ -201,7 +202,7 @@ body{
 .info-2-content{
     position: absolute;
     top: 10%;
-    left: 16%;
+    left: 10%;
 }
 .info-2-content > h1{
     color: white;
@@ -266,9 +267,16 @@ body{
     flex-direction: column;
 }
 .footer-1 div div ul a{
+    display: flex;
+    align-items: center;
     color: white;
     font-size: 1.1rem;
     margin-bottom: 0.5rem;
+}
+.footer-1 div div ul a img{
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.4rem;
 }
 .footer-1 div span{
     font-size: 1.3rem;
