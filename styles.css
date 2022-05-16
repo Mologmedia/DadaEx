@@ -2,9 +2,13 @@
   --yellow: #fda813;
   --red: #fc2847;
   --blue: #032142;
+  --white: #c4d8dc;
 }
-
+* {
+  scroll-behavior: smooth;
+}
 body {
+  scroll-behavior: smooth;
   margin: 0;
   padding: 0;
   /* font-family: 'Lato', sans-serif; */
@@ -153,43 +157,6 @@ body {
   background: #40d3dc;
 }
 
-/* Nav Bar */
-.navbar {
-  position: absolute;
-  top: 2rem;
-  right: 6rem;
-  z-index: 1000;
-}
-.navbar .nav_1 {
-  text-align: end;
-  margin-bottom: 2rem;
-}
-.navbar .nav_1 a {
-  background: var(--blue);
-  color: white;
-  text-decoration: none;
-  padding: 0.8rem 1.3rem;
-}
-.navbar .nav_2 a {
-  text-decoration: none;
-  color: white;
-  font-weight: 700;
-  font-size: 1.2rem;
-}
-.navbar .nav_2 a:not(:last-child) {
-  margin-right: 2rem;
-}
-/* .navbar .nav_2 .btn-1{
-    background-color: var(--yellow);
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
-} */
-.navbar .nav_2 .btn-2 {
-  background-color: rgba(255, 255, 255, 0.5);
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
-}
-
 .info-2 {
   height: 100vh;
   position: relative;
@@ -294,11 +261,6 @@ body {
   display: flex;
   justify-content: space-between;
 }
-/* Navbar for small screens */
-.navigation {
-  display: none;
-}
-
 .navigation__background {
   width: 4rem;
   height: 4rem;
@@ -537,10 +499,6 @@ body {
   }
   .navigation {
     display: block;
-  }
-  .navbar {
-    top: 1rem;
-    right: 2rem;
   }
   .navigation__button {
     right: 2rem;
