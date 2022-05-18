@@ -56,32 +56,32 @@ p {
 }
 
 h1 {
-  color: #333;
+  color: #f0a731;
   font: 700 2.75rem/3.375rem "Montserrat", sans-serif;
 }
 
 h2 {
-  color: #333;
+  color: #f0a731;
   font: 700 2.25rem/2.875rem "Montserrat", sans-serif;
 }
 
 h3 {
-  color: #333;
+  color: #f0a731;
   font: 700 1.625rem/2.125rem "Montserrat", sans-serif;
 }
 
 h4 {
-  color: #333;
+  color: #f0a731;
   font: 700 1.25rem/1.875rem "Montserrat", sans-serif;
 }
 
 h5 {
-  color: #333;
+  color: #f0a731;
   font: 700 1.125rem/1.75rem "Montserrat", sans-serif;
 }
 
 h6 {
-  color: #333;
+  color: #f0a731;
   font: 700 1rem/1.625rem "Montserrat", sans-serif;
 }
 
@@ -123,16 +123,16 @@ a:hover {
   border: 0.125rem solid var(--white);
   border-radius: 2rem;
   background-color: var(--white);
-  color: #333;
+  color: #f0a731;
   font: 600 0.875rem/0 "Montserrat", sans-serif;
   text-decoration: none;
   transition: all 0.2s;
 }
 
 .basicButton:hover {
-  border: 0.125rem solid #333;
+  border: 0.125rem solid #f0a731;
   background-color: transparent;
-  color: #333;
+  color: #f0a731;
   text-decoration: none;
 }
 
@@ -142,26 +142,26 @@ a:hover {
   border: 0.125rem solid var(--white);
   border-radius: 2rem;
   background-color: var(--white);
-  color: #333;
+  color: #f0a731;
   font: 600 0.875rem/0 "Montserrat", sans-serif;
   text-decoration: none;
   transition: all 0.2s;
 }
 
 .basicButtonLarge:hover {
-  border: 0.125rem solid #333;
+  border: 0.125rem solid #f0a731;
   background-color: transparent;
-  color: #333;
+  color: #f0a731;
   text-decoration: none;
 }
 
 .basicButtonBook {
   display: inline-block;
   padding: 1.375rem 2.625rem 1.375rem 2.625rem;
-  border: 0.125rem solid #333;
+  border: 0.125rem solid #f0a731;
   border-radius: 2rem;
   background-color: transparent;
-  color: #333;
+  color: #f0a731;
   font: 600 0.875rem/0 "Montserrat", sans-serif;
   text-decoration: none;
   transition: all 0.2s;
@@ -170,7 +170,7 @@ a:hover {
 .basicButtonBook:hover {
   border: 0.125rem solid var(--white);
   background-color: var(--white);
-  color: #333;
+  color: #f0a731;
   text-decoration: none;
 }
 
@@ -295,16 +295,16 @@ input[type="checkbox"] {
   border: 0.125rem solid var(--white);
   border-radius: 1.5rem;
   background-color: var(--white);
-  color: #333;
+  color: #f0a731;
   font: 600 0.875rem/0 "Montserrat", sans-serif;
   cursor: pointer;
   transition: all 0.2s;
 }
 
 .fromSubmit:hover {
-  border: 0.125rem solid #333;
+  border: 0.125rem solid #f0a731;
   background-color: transparent;
-  color: #333;
+  color: #f0a731;
 }
 
 #messageGeneral.h3.text-center.tada.animated,
@@ -317,7 +317,7 @@ input[type="checkbox"] {
 .h3.text-center {
   display: block;
   margin-bottom: 0;
-  color: #333;
+  color: #f0a731;
   font-weight: 700;
   font-size: 1.125rem;
   line-height: 1rem;
@@ -438,12 +438,7 @@ input[type="checkbox"] {
   position: relative;
   padding-top: 8rem;
   padding-bottom: 40%;
-  background: linear-gradient(
-      to bottom right,
-      rgba(0, 0, 0, 0.8),
-      rgba(0, 0, 0, 0.8)
-    ),
-    url("../images/header-background.jpg") center center no-repeat;
+  background: #f0a731;
   background-size: cover;
   text-align: center;
 }
@@ -476,7 +471,7 @@ input[type="checkbox"] {
 
 .header .basicButtonBook:hover {
   background-color: #fff;
-  color: #333;
+  color: #f0a731;
 }
 
 .header .otherCont {
@@ -530,7 +525,7 @@ input[type="checkbox"] {
 .formTwo .help-block,
 .formTwo .checkbox,
 .formTwo .checkbox a {
-  color: #333;
+  color: #f0a731;
 }
 
 .formTwo p {
@@ -538,7 +533,7 @@ input[type="checkbox"] {
 }
 
 .formTwo .list-unstyled .fas {
-  color: #333;
+  color: #f0a731;
   font-size: 0.5rem;
   line-height: 1.5rem;
 }
@@ -557,7 +552,7 @@ input[type="checkbox"] {
 }
 
 .formTwo .fromSubmit {
-  border: 0.125rem solid #333;
+  border: 0.125rem solid #f0a731;
   background-color: transparent;
 }
 
@@ -618,7 +613,7 @@ input[type="checkbox"] {
   height: 2.125rem;
   border-radius: 50%;
   background-color: var(--white);
-  color: #333;
+  color: #f0a731;
   font-style: normal;
   font-weight: 700;
   font-size: 0.875rem;
@@ -681,7 +676,7 @@ input[type="checkbox"] {
   margin-bottom: 1.5rem;
   margin-left: auto;
   border-radius: 50%;
-  background-color: #333333;
+  background-color: #f0a731;
 }
 
 .cards .fas,
@@ -735,7 +730,7 @@ input[type="checkbox"] {
 }
 
 .slider-2 .secureMainPersonName {
-  color: #333;
+  color: #f0a731;
 }
 
 .slider-2 .swiper-button-prev,
@@ -763,11 +758,7 @@ input[type="checkbox"] {
 .footer {
   padding-top: 4.75rem;
   padding-bottom: 2rem;
-  background: linear-gradient(
-    to bottom right,
-    rgba(0, 0, 0, 0.8),
-    rgba(0, 0, 0, 0.8)
-  );
+  background-color: #f0a731;
   background-size: cover;
 }
 
@@ -786,11 +777,11 @@ input[type="checkbox"] {
 .footer h5,
 .footer p,
 .footer a {
-  color: #bbb;
+  color: #333;
 }
 
 .footer .list-unstyled .fas {
-  color: #bbb;
+  color: #333;
   font-size: 0.5rem;
   line-height: 1.375rem;
 }
@@ -802,7 +793,7 @@ input[type="checkbox"] {
 .footer .fab {
   margin-bottom: 0.75rem;
   margin-right: 1rem;
-  color: #ccc;
+  color: #333;
   font-size: 1.25rem;
   transition: all 0.2s ease;
 }
@@ -819,13 +810,13 @@ input[type="checkbox"] {
 }
 
 .copyright .p-small {
-  color: #999;
+  color: #333;
   font-size: 0.75rem;
   line-height: 1.375rem;
 }
 
 .copyright a {
-  color: #999;
+  color: #333;
 }
 
 a.back-to-top {
